@@ -15,3 +15,10 @@ if (edad>=18) {
 console.log(nombre);
 console.log(edad);
 console.log(boolean);
+
+let acceso = (edad>=18) && (edad=<60);
+if(acceso=true){
+    console.log("Tiene la edad permitida para navegar en la web.")
+} else {
+    alert("NO PUEDE NAVEGAR EN LA WEB");
+};
